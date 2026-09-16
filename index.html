@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#3B2920" />
+  <title>THE ROYAL PLACE — Furniture Fit for Royalty</title>
+  <meta name="description" content="THE ROYAL PLACE — Furniture fit for royalty. Signature living, bedroom, dining, wardrobe and interior pieces." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="loader" aria-hidden="true"><img src="assets/royal-mark.jpg" alt=""><span></span></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span></span></div>
+
+  <header class="site-nav" id="site-nav">
+    <a class="brand-lockup" href="#home" aria-label="THE ROYAL PLACE home">
+      <img src="assets/royal-mark.jpg" alt="" class="brand-mark">
+      <span class="brand-name"><small>THE</small><strong>ROYAL PLACE</strong></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#collection">Collection</a>
+      <a href="#craft">Craft</a>
+      <a href="#spaces">Spaces</a>
+      <a href="#story">Story</a>
+    </nav>
+    <a class="nav-button" href="#contact">Book a consultation <b>↗</b></a>
+    <button class="menu-toggle" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero hero-v4 hero-sequence-section" id="home">
+      <div class="hero-sequence-sticky">
+        <div class="hero-sequence-slogan" aria-label="Furniture fit for royalty">
+          <img class="hero-sequence-slogan-logo" src="assets/royal-mark.jpg" alt="THE ROYAL PLACE logo mark">
+          <div class="hero-sequence-slogan-copy">
+            <span>FURNITURE</span>
+            <strong>FIT FOR</strong>
+            <em>ROYALTY.</em>
+            <small>SCROLL TO EXPLORE</small>
+          </div>
+        </div>
+
+        <div class="hero-sequence-stage">
+          <div class="hero-sequence-shell">
+            <canvas id="hero-wardrobe-canvas" aria-label="Scroll-controlled wardrobe reveal"></canvas>
+            <div class="hero-sequence-vignette"></div>
+            <div class="hero-wardrobe-glow"></div>
+            <div class="hero-sequence-loading" id="hero-sequence-loading">LOADING <b>01</b> / 240</div>
+          </div>
+        </div>
+
+        <div class="hero-sequence-progress" aria-hidden="true"><span></span></div>
+        <div class="hero-sequence-status" id="hero-sequence-status">SCROLL / EXPLORE</div>
+      </div>
+    </section>
+
+    
+
+    <section class="collection light-section" id="collection">
+      <div class="section-heading">
+        <div><span class="section-index dark-index">03 / SIGNATURE COLLECTION</span><h2>The pieces<br><em>that rule the room.</em></h2></div>
+        <p>Furniture designed to feel collected, not crowded. Every price shown is an indicative starting point and can be refined to your dimensions and finish.</p>
+      </div>
+      <div class="collection-grid v5-products">
+        <article class="piece piece-large product-card-v5">
+          <a href="#contact" class="piece-image"><img src="https://images.unsplash.com/photo-1758448755778-90ebf4d0f1e7?auto=format&fit=crop&fm=jpg&q=90&w=2400" alt="Luxury sectional sofa in an elegant room"><span class="piece-number">001</span><span class="piece-arrow">↗</span></a>
+          <div class="piece-meta"><span>LIVING / STATEMENT SEATING</span><div><h3>THE CROWN SOFA</h3><b class="product-price">FROM ₦1,850,000</b></div><p>Soft geometry. Deep comfort. Immediate authority.</p></div>
+        </article>
+        <article class="piece piece-tall product-card-v5">
+          <a href="#contact" class="piece-image"><img src="https://images.unsplash.com/photo-1785535573610-c81a06ddfea7?auto=format&fit=crop&fm=jpg&q=90&w=2400" alt="Modern dining table and chairs in a contemporary dining room"><span class="piece-number">002</span><span class="piece-arrow">↗</span></a>
+          <div class="piece-meta"><span>DINING / 6-SEAT SET</span><div><h3>THE MILANO DINING SET</h3><b class="product-price">FROM ₦2,450,000</b></div><p>A clean-lined contemporary table with upholstered dining chairs.</p></div>
+        </article>
+        <article class="piece piece-medium product-card-v5">
+          <a href="#contact" class="piece-image"><img src="https://images.unsplash.com/photo-1765862835193-3c37388a409e?auto=format&fit=crop&fm=jpg&q=90&w=2200" alt="Luxury bedroom with modern furniture"><span class="piece-number">003</span><span class="piece-arrow">↗</span></a>
+          <div class="piece-meta"><span>BEDROOM / REST</span><div><h3>THE ROYAL BED</h3><b class="product-price">FROM ₦2,100,000</b></div><p>A quieter kind of grandeur, built around proportion and comfort.</p></div>
+        </article>
+        <article class="piece piece-medium product-card-v5">
+          <a href="#contact" class="piece-image"><img src="https://images.unsplash.com/photo-1784651859318-d9300849bf34?auto=format&fit=crop&fm=jpg&q=90&w=2200" alt="Warm modern built-in wardrobe interior"><span class="piece-number">004</span><span class="piece-arrow">↗</span></a>
+          <div class="piece-meta"><span>BEDROOM / BESPOKE STORAGE</span><div><h3>THE IMPERIAL WARDROBE</h3><b class="product-price">FROM ₦2,950,000</b></div><p>Architectural storage, tailored to the room rather than forced into it.</p></div>
+        </article>
+        <article class="piece piece-wide product-card-v5">
+          <a href="#contact" class="piece-image"><img src="https://images.unsplash.com/photo-1776482128074-960564637e76?auto=format&fit=crop&fm=jpg&q=90&w=2400" alt="Modern interior with sofa and long dining table"><span class="piece-number">005</span><span class="piece-arrow">↗</span></a>
+          <div class="piece-meta"><span>DINING / LIVING / STATEMENT PIECE</span><div><h3>THE MONARCH CONSOLE</h3><b class="product-price">FROM ₦980,000</b></div><p>A sculptural anchor for entryways, dining rooms and open-plan spaces.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="craft craft-v4 craft-v5" id="craft">
+      <div class="craft-v4-image"><img src="https://images.unsplash.com/photo-1785535573610-c81a06ddfea7?auto=format&fit=crop&fm=jpg&q=90&w=2600" alt="Contemporary dining set in a refined interior"><div class="craft-v4-overlay"></div><span>THE MILANO SET / MODERN DINING</span></div>
+      <div class="craft-v4-copy"><span class="section-index">04 / COMPOSE THE ROOM</span><h2>Not just furniture.<br><em>A complete point of view.</em></h2><p>Pair statement seating with a contemporary dining set, considered storage and tailored bedroom pieces. The goal is not to repeat one design everywhere — it is to make every room feel like it belongs to the same house.</p><div class="craft-specs"><div><b>01</b><span>MODERN PROPORTIONS</span></div><div><b>02</b><span>MATERIAL HARMONY</span></div><div><b>03</b><span>ROOM-BY-ROOM CUSTOMISATION</span></div></div></div>
+    </section>
+
+    <section class="reveal-message dark-section">
+      <span class="section-index">05 / THE REVEAL</span>
+      <div class="reveal-word"><span>WHERE YOUR</span><strong>SPACE</strong><em>BECOMES ROYAL.</em></div>
+      <p>Craftsmanship is the mechanism. Feeling is the result.</p>
+    </section>
+
+    <section class="spaces" id="spaces">
+      <div class="spaces-head"><span class="section-index dark-index">06 / ROYAL SPACES</span><span id="space-count">01 / 04</span></div>
+      <div class="spaces-track" id="spaces-track">
+        <article class="space-card"><img src="https://images.unsplash.com/photo-1758448755778-90ebf4d0f1e7?auto=format&fit=crop&fm=jpg&q=90&w=2600" alt="Luxury living room"><div><span>01 / LIVING</span><h3>Let the sofa<br><em>set the room.</em></h3></div></article>
+        <article class="space-card"><img src="https://images.unsplash.com/photo-1771328756144-02bde5549a9a?auto=format&fit=crop&fm=jpg&q=90&w=2600" alt="Modern bedroom with wardrobe"><div><span>02 / BEDROOM</span><h3>Storage can<br><em>be a statement.</em></h3></div></article>
+        <article class="space-card"><img src="https://images.unsplash.com/photo-1785535573610-c81a06ddfea7?auto=format&fit=crop&fm=jpg&q=90&w=2600" alt="Modern dining set"><div><span>03 / DINING</span><h3>Make every<br><em>seat count.</em></h3></div></article>
+        <article class="space-card"><img src="https://images.unsplash.com/photo-1776482128074-960564637e76?auto=format&fit=crop&fm=jpg&q=90&w=2600" alt="Elegant furnished home interior"><div><span>04 / THE WHOLE PLACE</span><h3>Your room.<br><em>Your signature.</em></h3></div></article>
+      </div>
+      <div class="spaces-footer"><span>DRAG / SCROLL</span><div class="space-bar"><i id="space-bar"></i></div><a href="#contact">Start a room <b>↗</b></a></div>
+    </section>
+
+    <section class="builder dark-section" id="builder">
+      <div class="builder-head"><span class="section-index">07 / THE ROYAL EDIT</span><h2>Choose the mood.<br><em>We build the piece.</em></h2><p>Start with a sofa. Tune the material, colour and silhouette, then take your selection into a private consultation.</p></div>
+      <div class="builder-grid">
+        <div class="builder-preview">
+          <img src="https://images.unsplash.com/photo-1758448755778-90ebf4d0f1e7?auto=format&fit=crop&fm=jpg&q=90&w=2400" alt="Luxury sofa in a finished room" id="builder-image">
+          <div class="preview-overlay"></div>
+          <div class="preview-sofa" id="preview-sofa"><div class="sofa-back"></div><div class="sofa-seat"></div><div class="sofa-arm left"></div><div class="sofa-arm right"></div><div class="sofa-cushion c1"></div><div class="sofa-cushion c2"></div><div class="sofa-leg l"></div><div class="sofa-leg r"></div></div>
+          <div class="preview-caption"><span>LIVE CONFIGURATION</span><b id="preview-state">VELVET / SAND / 3-SEATER</b></div>
+        </div>
+        <div class="builder-controls">
+          <div class="control"><label>01 / MATERIAL</label><div class="option-row" data-control="material"><button class="active" data-value="velvet">Velvet</button><button data-value="linen">Linen</button><button data-value="leather">Leather</button></div></div>
+          <div class="control"><label>02 / COLOUR</label><div class="swatch-row" data-control="colour"><button class="swatch active sand" data-value="sand" aria-label="Sand"></button><button class="swatch cocoa" data-value="cocoa" aria-label="Cocoa"></button><button class="swatch charcoal" data-value="charcoal" aria-label="Charcoal"></button><button class="swatch olive" data-value="olive" aria-label="Olive"></button></div></div>
+          <div class="control"><label>03 / SILHOUETTE</label><div class="option-row" data-control="shape"><button class="active" data-value="three">3-Seater</button><button data-value="lshape">L-Shape</button><button data-value="lounger">Lounger</button></div></div>
+          <div class="builder-result"><span>INDICATIVE STARTING FROM</span><strong id="builder-price">₦1,850,000</strong><p>Final price follows dimensions, finish and upholstery specification.</p><a class="gold-button" href="#contact">Request this piece <span>↗</span></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="standard light-section">
+      <div class="standard-image"><img src="https://images.unsplash.com/photo-1784651859318-d9300849bf34?auto=format&fit=crop&fm=jpg&q=90&w=2200" alt="Warm luxury wardrobe interior"><span>THE ROYAL<br>STANDARD</span></div>
+      <div class="standard-copy"><span class="section-index dark-index">08 / THE ROYAL STANDARD</span><h2>Luxury is not<br><em>loud.</em></h2><p>It is proportion. It is touch. It is the way a drawer closes, the way a seam sits, the way a room feels when everything finally belongs.</p><div class="standard-list"><div><b>01</b><strong>Premium materials</strong><span>Selected for texture, durability and character.</span></div><div><b>02</b><strong>Intentional craft</strong><span>Every join, seam, edge and finish has a reason.</span></div><div><b>03</b><strong>Made for your room</strong><span>Dimensions and details are refined around your space.</span></div></div></div>
+    </section>
+
+    <section class="story dark-section" id="story">
+      <div class="story-mark"><img src="assets/logo.jpeg" alt="THE ROYAL PLACE — Furniture Fit for Royalty"></div>
+      <div class="story-copy"><span class="section-index">09 / THE PLACE BEHIND THE PIECES</span><h2>Furniture should do more<br>than fill a room.</h2><p>It should <em>define it.</em></p><a class="under-link" href="#contact">Begin your royal room <span>↗</span></a></div>
+    </section>
+
+    <section class="contact light-section" id="contact">
+      <div class="contact-intro"><span class="section-index dark-index">10 / TAKE YOUR PLACE</span><h2>Let's make<br><em>your space royal.</em></h2></div>
+      <div class="contact-card"><img src="assets/logo.jpeg" alt="THE ROYAL PLACE logo" class="contact-mark contact-logo-full"><div><span>THE ROYAL PLACE</span><p>Private consultations · Bespoke furniture · Interior projects</p><div class="contact-details-v5"><a href="tel:+2349037792803">09037792803</a><a href="mailto:princehopefynee@gmail.com">princehopefynee@gmail.com</a></div><a class="gold-button dark-gold" href="mailto:princehopefynee@gmail.com">Book a consultation <span>↗</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="footer dark-section">
+    <a class="brand-lockup footer-brand" href="#home"><img src="assets/logo.jpeg" alt="THE ROYAL PLACE logo" class="brand-mark footer-logo-full"><span class="brand-name"><small>THE</small><strong>ROYAL PLACE</strong></span></a>
+    <p>FURNITURE FIT FOR ROYALTY</p>
+    <span>© 2026 THE ROYAL PLACE</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
